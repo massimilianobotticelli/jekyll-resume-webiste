@@ -11,7 +11,7 @@ user_title: Open Source Advocate
 email: pete.pixel∂emaildomain.com
 linkedin_username: petepixel
 github_username:  petepixel
-expertice_picture: expertises.jpg
+expertise_picture: expertises.jpg
 
 exclude: ['package.json', 'src', 'node_modules', 'vendor']
 

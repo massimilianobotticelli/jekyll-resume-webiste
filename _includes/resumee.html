@@ -16,7 +16,7 @@
     </section>
 {% endif %}
 
-<div class="section-divider"></div> <!-- Bar between sections -->
+<hr aria-role="separator" aria-label="Section divider" class="section-divider">
 
 {% if work %}
     <section id="experience" class="section">
@@ -32,13 +32,12 @@
                         <p class="responsability">{{ position.responsability }}</p>
                     </li>
                 {% endfor %}
-                
             {% endfor %}
         </ul>
     </section>
 {% endif %}
 
-<div class="section-divider"></div> <!-- Bar between sections -->
+<hr aria-role="separator" aria-label="Section divider" class="section-divider">
 
 {% if publications %}
     <section id="publications" class="section">
@@ -49,8 +48,7 @@
                 <li class="publication-entry">
                     <p class="authors">{{ publication.authors }}</p>
                     <p class="journal">{{ publication.publisher }}, {{ publication.location }}, {{ publication.date }}</p>
-                    <p class="doi">DOI: <a href="https://doi.org/{{ publication.doi }}" target=”_blank” >{{ publication.doi }}</a></p>
-                    
+                    <p class="doi">DOI: <a href="https://doi.org/{{ publication.doi }}" target="_blank" >{{ publication.doi }}</a></p>
                 </li>
             {% endfor %}
         </ul>
