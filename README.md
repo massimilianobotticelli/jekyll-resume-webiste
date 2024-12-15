@@ -1,4 +1,4 @@
-# Personal Website 
+# Minimal Jekyll Resume Website
 
 [![GitHub Pages Status](https://github.com/massimilianobotticelli/jekyll-resume-webiste/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/massimilianobotticelli/jekyll-resume-webiste/actions/workflows/pages/pages-build-deployment)
 
