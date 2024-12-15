@@ -3,23 +3,15 @@
 [![GitHub Pages Status](https://github.com/massimilianobotticelli/jekyll-resume-webiste/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/massimilianobotticelli/jekyll-resume-webiste/actions/workflows/pages/pages-build-deployment)
 
 This project is a fork of the [Jekyll Theme Minimal Resume](https://github.com/murraco/jekyll-theme-minimal-resume) by [murraco](https://github.com/murraco).
-
 I've customized and enhanced it to create my personal website, and I'm open-sourcing it in case it's useful for others.
 
-## Links
-- [Live Demo](https://massimilianobotticelli.github.io/jekyll-resume-webiste/)
-- [My Personal Resumee](https://massimilianobotticelli.me/)
+**Key changes and features:**
 
-# Stack
+* Add profile picture
+* New layout for expertise section
+* Detailed resumee with education, working experience and publications 
 
-![](https://img.shields.io/badge/jekyll-✓-blue.svg)
-![](https://img.shields.io/badge/html5-✓-blue.svg)
-![](https://img.shields.io/badge/sass-✓-blue.svg)
-![](https://img.shields.io/badge/sweet--scroll-✓-blue.svg)
-![](https://img.shields.io/badge/particle--js-✓-blue.svg)
-![](https://img.shields.io/badge/font--awesome-✓-blue.svg)
-![](https://img.shields.io/badge/devicon-✓-blue.svg)
-![](https://img.shields.io/badge/gulp-✓-blue.svg)
+Check the [live demo](https://massimilianobotticelli.github.io/jekyll-resume-webiste/) or my [personal resumee](https://massimilianobotticelli.me/).
 
 # Screenshot
 
@@ -27,11 +19,7 @@ I've customized and enhanced it to create my personal website, and I'm open-sour
   <img src="screenshot.png" width="90%" />
 </p>
 
-**Key changes and features:**
 
-* Add profile picture
-* New layout for expertise section
-* Detailed resumee with education, working experience and publications 
 
 ## Getting Started
 
