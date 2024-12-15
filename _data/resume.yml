@@ -1,0 +1,48 @@
+# Resume
+
+education:
+    title: Education
+    info:
+      - degree: Pixel Art Mastery
+        university: School of Digital Arts, Pixelville
+        time: 2010 - 2014
+      - degree: Advanced Color Theory
+        university: Academy of Visual Aesthetics, Rainbow City
+        time: 2014 - 2016
+      - degree:  Bachelor of Science in Binary Brilliance
+        university:  Institute of Technological Innovation, Silicon Valley
+        time: 2016 - 2020
+
+work:
+    title: Working Experience
+    info:
+      - company: Open Source Initiative
+        positions:
+          - title: Chief Pixel Officer 
+            location:  The Cloud
+            time: 2024 - Present
+            responsability: 
+              - Leading pixel-perfect initiatives to promote open source.
+              - Evangelizing digitalization through visually engaging campaigns.
+              - Building vibrant communities around open-source technologies.
+          - title:  Lead Pixel Artist
+            location: The Cloud
+            time: 2020 - 2024
+            responsability: 
+              - Designed and developed pixel art assets for various open-source projects.
+              - Created visually compelling tutorials and documentation.
+              - Mentored aspiring pixel artists in the open-source community. 
+
+publications:
+    title: Pixelated Publications
+    info:
+      - title: "The Art of Pixel Perfection: A Guide for Open Source Enthusiasts"
+        authors: Peter Pixel
+        publisher:  Open Source Press
+        location: The Digital Library
+        date: 2023
+      - title: "Digitalization for Everyone: A Pixelated Perspective"
+        authors: Peter Pixel
+        publisher:  TechTrend Publications
+        location: The Metaverse
+        date: 2022

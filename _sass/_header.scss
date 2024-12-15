@@ -1,0 +1,292 @@
+@media (min-width: 769px) {
+
+  #particles-js {
+    background: $main;
+    display: flex;
+    vertical-align: bottom;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .particles-js-canvas-el {
+      height: 100vh !important;
+    }
+  }
+
+  .header {
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+    text-align: center;
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .site-title {
+      font-size: 4vw;
+      display: block;
+      line-height: 1;
+      color: #FFF;
+    }
+
+    .site-description {
+      font-size: 2vw;
+      display: block;
+      line-height: 1;
+      color: #FFF;
+      margin-top: 10px;
+    }
+
+    .chatbot-link {
+      font-size: 1.5vw; 
+      display: block;
+      line-height: 1.2; 
+      color: #FFF;
+      margin-top: 20px; 
+      text-decoration: none; 
+      transition: color 0.3s ease; 
+      padding: 8px 15px; 
+      border: 2px solid #FFF; 
+      border-radius: 5px; 
+
+      &:hover {
+        color: $main;  
+        background-color: #FFF; 
+      }
+    } 
+
+    .profile-image {
+      width: 30%;
+      height: auto;
+      border: 2px solid #333;
+      border-radius: 50%;
+    }
+  }
+
+  .header-links {
+    margin: 10px;
+    .link {
+      color: #FFF;
+      text-decoration: none;
+      font-size: 2vw;
+      margin: 10px;
+    }
+  }
+
+  .header-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    a {
+      outline: 0 !important;
+      border: none !important;
+      outline-style: none !important;
+      -moz-outline-style: none !important;
+    }
+
+    .icon {
+      text-align: center;
+      color: #FFF;
+      width: 2vw; 
+      height: 2vw; 
+      font-size: 2vw; 
+      padding: 10px; 
+      margin: 2px; 
+      border-radius: 50%;
+      border: 2px solid #FFF;
+      transition: all 0.5s;
+
+      &:hover {
+        color: $main;
+        background: #FFF;
+      }
+    }
+  }
+
+  .down {
+    color: #FFF;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 3vw; 
+    line-height: 3vw; 
+    cursor: pointer;
+
+    a {
+      outline: 0 !important;
+      border: none !important;
+      outline-style: none !important;
+      -moz-outline-style: none !important;
+
+      .icon {
+        position: absolute;
+        transform-style: preserve-3d;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 6vw; 
+        height: 6vw; 
+        fill: #fff;
+        animation: pulse 1.3s infinite;
+
+        &:hover {
+          color: $sec;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  #particles-js {
+    background: $main;
+    display: flex;
+    vertical-align: bottom;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .particles-js-canvas-el {
+      height: 100vh !important;
+    }
+  }
+  
+
+  .header {
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+    text-align: center;
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .site-title {
+      font-size: 10vw;
+      display: block;
+      line-height: 1;
+      color: #FFF;
+    }
+
+    .site-description {
+      font-size: 4vw;
+      display: block;
+      line-height: 1;
+      color: #FFF;
+      margin-top: 20px;
+    }
+
+    .chatbot-link {
+      font-size: 3vw; 
+      display: block;
+      line-height: 1.4; 
+      color: #FFF;
+      margin-top: 25px;
+      text-decoration: none;
+      transition: color 0.3s ease;
+      padding: 12px 20px; 
+      border: 2px solid #FFF;
+      border-radius: 8px;  
+
+      &:hover {
+        color: $main; 
+        background-color: #FFF;
+      }
+    }  
+
+    .profile-image {
+      width: 80%;
+      height: auto;
+      border: 2px solid #333;
+      border-radius: 50%;
+    }
+  }
+
+  .header-links {
+    margin: 10px;
+    .link {
+      color: #FFF;
+      text-decoration: none;
+      font-size: 2vw;
+      margin: 10px;
+    }
+  }
+
+  .header-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    a {
+      outline: 0 !important;
+      border: none !important;
+      outline-style: none !important;
+      -moz-outline-style: none !important;
+    }
+
+    .icon {
+      text-align: center;
+      color: #FFF;
+      width: 10vw; 
+      height: 10vw;
+      font-size: 10vw;
+      padding: 15px; 
+      margin: 5px; 
+      border-radius: 50%;
+      border: 2px solid #FFF;
+      transition: all 0.5s;
+
+      &:hover {
+        color: $main;
+        background: #FFF;
+      }
+    }
+  }
+
+  .down {
+    color: #FFF;
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 3vw;
+    line-height: 3vw; 
+    cursor: pointer;
+
+    a {
+      outline: 0 !important;
+      border: none !important;
+      outline-style: none !important;
+      -moz-outline-style: none !important;
+
+      .icon {
+        position: absolute;
+        transform-style: preserve-3d;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 6vw; 
+        height: 6vw; 
+        fill: #fff;
+        animation: pulse 1.3s infinite;
+
+        &:hover {
+          color: $sec;
+        }
+      }
+    }
+  }
+
+
+}

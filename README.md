@@ -1,8 +1,8 @@
-# Jekyll Resume Theme
+# Personal Website 
 
-Live demo at https://jekyll-theme-minimal-resume.netlify.app
+This project is a fork of the [Jekyll Theme Minimal Resume](https://github.com/murraco/jekyll-theme-minimal-resume) by [murraco](https://github.com/murraco).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/24d80ae8-c3d9-4645-a6d8-9e97fc8dec3c/deploy-status)](https://app.netlify.com/sites/jekyll-theme-minimal-resume/deploys)
+I've customized and enhanced it to create my personal website, and I'm open-sourcing it in case it's useful for others.
 
 # Stack
 
@@ -18,78 +18,47 @@ Live demo at https://jekyll-theme-minimal-resume.netlify.app
 # Screenshot
 
 <p align="center">
-  <img src="https://github.com/murraco/jekyll-theme-minimal-resume/blob/master/screenshot.png" width="90%" />
+  <img src="screenshot.png" width="90%" />
 </p>
 
-# If this helped, consider buying me a coffee! ☕️
+**Key changes and features:**
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/murraco)
+* Add profile picture
+* New layout for expertise section
+* Detailed resumee with education, working experience and ublications 
 
-# Quick Setup
+## Getting Started
 
-1. Install Jekyll: `gem install jekyll bundler`
-2. Fork this repository and clone your fork
-3. Edit `_config.yml` to personalize your site
+1. **Fork this repository** and clone your fork.
+2. **Install Jekyll:** `gem install jekyll bundler`
+3. **Edit `_config.yml`** to personalize your site.
+4. **Run locally:**
+   - `bundle install`
+   - `bundle exec jekyll build`
+   - Start an HTTP server in the `_site` folder.
 
-# Settings
+## Customization
 
-You have to fill some informations on `_config.yml` to customize your site:
+* **Content:** Edit the `.html` files to add your own information, skills, experience, and social links.
+* **Styling:** Customize the colors and styles by modifying the `.sass` files.
+* **Particle Effects:** Adjust the particle effects by editing the JSON data in the `app.js` file.
 
-## Site settings
-```yml
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://localhost:3000" # the base hostname & protocol for your site
-```
+## Contributing
 
-## User settings
-```yml
-username: Lorem Ipsum
-user_description: Software Engineer at Lorem Ipsum Dolor
-user_title: Mauricio Urraco
-email: mauriurraco@gmail.com
-```
+Feel free to contribute to this project by:
 
-> Don't forget to change your URL before you deploy your site!
+* Reporting issues
+* Opening pull requests with improvements
+* Spreading the word
 
-# Color and Particle Customization
+## Credits
 
-- Color Customization
-  - Edit the `.sass` variables
-- Particle Customization
-  - Edit the json data in particle function in `app.js`
-  - Refer to `Particle.js` for help
+* **Original Theme:** [Jekyll Theme Minimal Resume](https://github.com/murraco/jekyll-theme-minimal-resume) by [murraco](https://github.com/murraco)
 
-# Content
+## License
 
-You can (and should) edit the `.html` files for adding your own information, icons, working experience, social links or whatever you want to add. I.e.:
+MIT License
 
-```html
-<a aria-label="My Github" target="_blank" href="https://github.com/murraco">
-  <i class="icon fa fa-github-alt" aria-hidden="true"></i>
-</a>
-```
+Copyright © 2017 Mauricio Urraco
 
-# Running locally
-
-In order to compile the assets and run `Jekyll` locally you need to follow those steps:
-
-1. Install Jekyll
-2. Run `bundle install`
-3. Run `bundle exec jekyll build`
-4. Start and http-server in the folder `_site`
-
-# Contribution
-
-- Report issues
-- Open pull request with improvements
-- Spread the word
-- Reach out to me directly at <mauriurraco@gmail.com>
-
-# Credits
-
-- [Nathan Randecker](https://github.com/nrandecker)
-
-# Buy me a coffee to show your support!
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/murraco)
+Copyright © 2024 Massimiliano Botticelli

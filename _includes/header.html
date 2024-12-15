@@ -1,5 +1,6 @@
 <div id="particles-js">
   <div class="header">
+    <img src="{{ site.baseurl }}/assets/images/profile.jpg" alt="My Profile Photo" class="profile-image">
       <h1>
         <span class="site-title">{{ site.username }}</span>
         <span class="site-description">{{ site.user_title }}</span>
@@ -30,8 +31,22 @@
         {% endif %}
       </div>
       <div class="header-links">
-        <!-- <a class="link" href="#about" data-scroll>About Me</a> -->
       </div>
   </div>
-  <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+  <a class="down" href="#menu-section" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
 </div>
+
+<section id="menu-section">
+  <div class="menu-container">
+    <header>
+    <nav>
+        <ul class="menu">
+            <li><a href="#expertise">My Expertise</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Working Experience</a></li>
+            <li><a href="#publications">Scientific Publications</a></li>      
+        </ul>
+    </nav>
+    </header>
+  </div>
+</section>

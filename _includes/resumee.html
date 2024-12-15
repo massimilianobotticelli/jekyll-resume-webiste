@@ -1,0 +1,58 @@
+{% assign education = site.data.resume.education %}
+{% assign work = site.data.resume.work %}
+{% assign publications = site.data.resume.publications %}
+{% if education %}
+    <section id="education" class="section">
+        <h2 class="section-title">{{ education.title }}</h2>
+        <ul class="education-list">
+            {% for graduation in education.info %}
+            <h3>{{ graduation.degree }}</h3>
+            <li class="education-entry">
+                <p class="university">{{ graduation.university }}</p>
+                <p class="graduated">{{ graduation.time }}</p>
+            </li>
+            {% endfor %}
+        </ul>
+    </section>
+{% endif %}
+
+<div class="section-divider"></div> <!-- Bar between sections -->
+
+{% if work %}
+    <section id="experience" class="section">
+        <h2 class="section-title">{{ work.title }}</h2>
+        <ul class="experience-list">
+            {% for experience in work.info %}
+                <h3>{{ experience.company }}</h3>
+                {% for position in experience.positions %}
+                    <li class="experience-entry">
+                        <p class="position">{{ position.title }}</p>
+                        <p class="duration">{{ position.time }}</p>
+                        <p class="location">{{ position.location }}</p>
+                        <p class="responsability">{{ position.responsability }}</p>
+                    </li>
+                {% endfor %}
+                
+            {% endfor %}
+        </ul>
+    </section>
+{% endif %}
+
+<div class="section-divider"></div> <!-- Bar between sections -->
+
+{% if publications %}
+    <section id="publications" class="section">
+        <h2 class="section-title">{{ publications.title}} </h2>
+        <ul class="publications-list">
+            {% for publication in publications.info %}
+                <h3 class="title">{{ publication.title }}</h3>
+                <li class="publication-entry">
+                    <p class="authors">{{ publication.authors }}</p>
+                    <p class="journal">{{ publication.publisher }}, {{ publication.location }}, {{ publication.date }}</p>
+                    <p class="doi">DOI: <a href="https://doi.org/{{ publication.doi }}" target=”_blank” >{{ publication.doi }}</a></p>
+                    
+                </li>
+            {% endfor %}
+        </ul>
+    </section>
+{% endif %}

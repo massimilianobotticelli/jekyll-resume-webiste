@@ -1,0 +1,141 @@
+.education-section,
+.experience-section {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.education-section h2,
+.experience-section h2  {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+}
+
+.experience-entry {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.education-entry {
+    margin-bottom: 10px;
+    padding-left: 0px;
+    background-color: #fff; 
+    border-radius: 5px;
+}
+.experience-list h3,
+.education-list h3,
+.publications-list h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 3px;
+}
+
+.university {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.graduated{
+    font-size: 16px;
+    color: #666;
+    margin-top: 0px;
+}
+
+.position {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.duration {
+    font-size: 14px;
+    color: #666;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.location {
+    font-size: 14px;
+    color: #666;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.responsability {
+    font-size: 16px;
+    color: #666;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.education-list,
+.experience-list {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-entry .responsibilities {
+    font-size: 16px;
+    color: #333;
+    text-align: justify;
+    position: relative;
+    margin-top: -0px;
+}
+
+#publications {
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#publications h2 {
+    font-size: 36px;
+    color: #333;
+    text-align: center;
+}
+
+.publication-entry {
+    margin-bottom: 10px; 
+    padding-left: 0px; 
+    background-color: #fff; 
+    border-radius: 5px;
+}
+
+.authors {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.journal {
+    font-size: 16px;
+    color: #666;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.year {
+    font-size: 16px;
+    color: #666;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.doi {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+
+.publications-list {
+    list-style: none;
+    padding: 0;
+}
