@@ -1,8 +1,14 @@
 # Personal Website 
 
+[![GitHub Pages Status](https://github.com/massimilianobotticelli/jekyll-resume-webiste/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/massimilianobotticelli/jekyll-resume-webiste/actions/workflows/pages/pages-build-deployment)
+
 This project is a fork of the [Jekyll Theme Minimal Resume](https://github.com/murraco/jekyll-theme-minimal-resume) by [murraco](https://github.com/murraco).
 
 I've customized and enhanced it to create my personal website, and I'm open-sourcing it in case it's useful for others.
+
+## Links
+- [Live Demo](https://massimilianobotticelli.github.io/jekyll-resume-webiste/)
+- [My Personal Resumee](https://massimilianobotticelli.me/)
 
 # Stack
 
@@ -25,7 +31,7 @@ I've customized and enhanced it to create my personal website, and I'm open-sour
 
 * Add profile picture
 * New layout for expertise section
-* Detailed resumee with education, working experience and ublications 
+* Detailed resumee with education, working experience and publications 
 
 ## Getting Started
 
@@ -35,13 +41,12 @@ I've customized and enhanced it to create my personal website, and I'm open-sour
 4. **Run locally:**
    - `bundle install`
    - `bundle exec jekyll build`
-   - Start an HTTP server in the `_site` folder.
+   - `bundle exec jekyll serve`
 
 ## Customization
 
-* **Content:** Edit the `.html` files to add your own information, skills, experience, and social links.
+* **Content:** Edit the `_data/resume.yml` and the `_config.yml` to add your own information, skills, experience, and social links.
 * **Styling:** Customize the colors and styles by modifying the `.sass` files.
-* **Particle Effects:** Adjust the particle effects by editing the JSON data in the `app.js` file.
 
 ## Contributing
 
