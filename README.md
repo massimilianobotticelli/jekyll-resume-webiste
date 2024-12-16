@@ -11,7 +11,7 @@ I've customized and enhanced it to create my personal website, and I'm open-sour
 * New layout for expertise section
 * Detailed resume with education, working experience and publications 
 
-Check the [live demo](https://massimilianobotticelli.github.io/jekyll-resume-webiste/) or my [personal resume](https://massimilianobotticelli.me/).
+Check the [live demo](https://massimilianobotticelli.github.io/personal-resume-webiste/) or my [personal resume](https://massimilianobotticelli.me/).
 
 # Screenshot
 
