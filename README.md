@@ -1,6 +1,6 @@
 # Personal Resume Website
 
-[![GitHub Pages Status](https://github.com/massimilianobotticelli/jekyll-resume-webiste/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/massimilianobotticelli/jekyll-resume-webiste/actions/workflows/pages/pages-build-deployment)
+[![GitHub Pages Status](https://github.com/massimilianobotticelli/personal-resume-webiste/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/massimilianobotticelli/personal-resume-webiste/actions/workflows/pages/pages-build-deployment)
 
 This project is a fork of the [Jekyll Theme Minimal Resume](https://github.com/murraco/jekyll-theme-minimal-resume) by [murraco](https://github.com/murraco).
 I've customized and enhanced it to create my personal website, and I'm open-sourcing it in case it's useful for others.
