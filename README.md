@@ -1,4 +1,4 @@
-# Minimal Jekyll Resume Website
+# Personal Resume Website
 
 [![GitHub Pages Status](https://github.com/massimilianobotticelli/jekyll-resume-webiste/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/massimilianobotticelli/jekyll-resume-webiste/actions/workflows/pages/pages-build-deployment)
 
@@ -9,9 +9,9 @@ I've customized and enhanced it to create my personal website, and I'm open-sour
 
 * Add profile picture
 * New layout for expertise section
-* Detailed resumee with education, working experience and publications 
+* Detailed resume with education, working experience and publications 
 
-Check the [live demo](https://massimilianobotticelli.github.io/jekyll-resume-webiste/) or my [personal resumee](https://massimilianobotticelli.me/).
+Check the [live demo](https://massimilianobotticelli.github.io/jekyll-resume-webiste/) or my [personal resume](https://massimilianobotticelli.me/).
 
 # Screenshot
 
